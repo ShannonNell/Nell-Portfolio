@@ -50,3 +50,5 @@ Actual list:
 - sticky header? 
 - Hover aspects -- Navigation -- do I want it to change on hover? Perhaps text color change
 - Shadow aspects
+- Header bg fixed? and Position %?
+- Check .hero div {...} overflow:auto
