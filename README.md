@@ -45,3 +45,8 @@ Build portfolio of work samples
 - Step 1: make portfolio
 - Step 2: deploy app at live URL 
 - Step 3: done. Easy peasy. 
+
+Actual list:
+- sticky header? 
+- Hover aspects -- Navigation -- do I want it to change on hover? Perhaps text color change
+- Shadow aspects
