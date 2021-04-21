@@ -29,8 +29,11 @@ a {
     text-decoration: none;
 }
 
-.flex-row {
-    display: flex;
+.section-title {
+    font-size: 30px;
+    color: var(--tertiary-color);
+    border-right: 3px solid var(--tertiary-color);
+    padding-right: 20px;
 }
 
 
@@ -92,10 +95,16 @@ section {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+/*flexbox stuff here? 
+    I want Hello | I'm Shannon on one line
+    |HTML... on another
+    When in mobile, Hello| I'm shannon should change
+*/
 .hero-content div h2 {
     font-size: 30px;
     color: #16679A;
 }
+
 .hero-content div h2 span {
     font-weight: lighter;
     color: var(--primary-color)
@@ -105,13 +114,40 @@ section {
     font-size: 18px;
     padding-top: 10px;
 }
-
 /* HERO STYLE END */
 
 
-.about-me img {
-    width: 10%;
+/* ABOUT ME STYLE */
+.about-me {
+    background: #fff;
+    display: flex;
+    flex-wrap: wrap;
 }
+
+.about-me-title {
+    display: flex;
+    width: 20%;
+    flex-wrap: wrap;
+}
+
+.about-me-info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    padding: 0 10px;
+}
+
+.about-me-img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15%;
+    padding: 0 10px;
+}
+
+.about-me-img img {
+    width: 100px;
+}
+/* ABOUT ME STYLE END */
 
 
 /* FOOTER STYLE START */
