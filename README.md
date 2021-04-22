@@ -21,6 +21,7 @@ Personal/for potential employers to see work
 
 ## Links
 * any links that helped me along the way
+* https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 
 ## Tools
 * HTML
