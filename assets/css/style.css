@@ -177,52 +177,100 @@ header nav ul li a {
 
 
 /* PROJECTS STYLE START */
+
+.my-projects {
+    background: var(--tertiary-color);
+    padding-right: 0px;
+}
+
+.sidebar-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar-content > *:nth-child(1) {
+    flex: 1 1 30%;
+    max-width: 10em;
+}
+
+.sidebar-content > *:nth-child(2) {
+    flex: 1 1 70%;
+}
+
 .secondary-title {
     font-size: 30px;
     color: var(--primary-color);
     border-right: 3px solid var(--primary-color);
-    padding-right: 10px;
-    padding-bottom: 95%;
-    flex: 0 160px;
-    align-self: flex-start;
+    padding-bottom: 100%;
 }
 
-.my-projects {
-    background: var(--tertiary-color);
+.content {
+    padding: 0 30px;
 }
 
-.projects {
+.projects-grid {
     display: flex;
     flex-wrap: wrap;
-    padding: 30px 0;
+    justify-content: center;
 }
 
-.projects-content {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    padding-left: 20px;
+.projects-grid > * {
+    flex: 1 1 33%;
+    padding: 5px;
 }
 
-.projects-content-row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.projects-content-column {
-    flex: 50%;
-    max-width: 50%;
-    padding: 0 7px;
-}
-
-.projects-content-column img { 
+.projects-img img {
     width: 100%;
-    padding: 5px 0;
+    display: block;    
+}
+/* PROJECTS STYLE END */
+
+
+
+/* CONTACT STYLE START */
+.contact-me {
+    background: #1d4e89;
 }
 
+.contact-info {
+    color: var(--secondary-color);
+    border: 1px solid red;
+}
+.contact-info a {
+    text-decoration: none;
+    color: yellow;
+}
 
+.contact-form {
+    display: flex;
+    justify-content: wrap;
+    
+}
+.contact-form h3 {
+    color: var(--tertiary-color);
+    font-size: 24px;
+}
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondarycolor);
+    display: block;
+    padding: 5px 10px;
+    font-size: 14px;
+    color: var(--secondary-color);
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
 
-/* PROJECTS STYLE END */
+.contact-form button {
+    width: 100%;
+    border: none;
+    background: var(--tertiary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 15px 0;
+    font-size: 16px;
+}
+/* CONTACT STYLE END */
 
 
 /* FOOTER STYLE START */
