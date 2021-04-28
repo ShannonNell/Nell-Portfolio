@@ -49,8 +49,8 @@ Build portfolio of work samples
 - √ Flexboxes
 - √ Match client portfolio piece (but with my own content)
 - √ Text over images
-- Add links to work projects deployed applications
-- Media Queries
+- √ Add links to work projects deployed applications
+- √ Media Queries
 - Hover functionality
 - Page for Resume
 - Enhanced CSS (Shadows, variables)
