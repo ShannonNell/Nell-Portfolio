@@ -44,9 +44,20 @@ Build portfolio of work samples
 - WHEN page resized -- THEN responsive layout adapts
 
 ### To Do:
-- Step 1: make portfolio
-- Step 2: deploy app at live URL 
-- Step 3: done. Easy peasy. 
+- √ Outline HTML
+- √ Basic CSS
+- √ Flexboxes
+- √ Match client portfolio piece (but with my own content)
+- √ Text over images
+- Hover functionality
+- Page for Resume
+- Enhanced CSS (Shadows, variables)
+- Ensure alt for all images
+- Ensure links lead to appropriate id/page
+- Ensure heading tags all in order
+- Deploy app at live URL 
+- Submit
+ 
 
 Actual list:
 - sticky header? 

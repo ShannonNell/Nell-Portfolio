@@ -3,18 +3,8 @@
     --secondary-color: #31343d;
     --tertiary-color: #445876;
     --fourth-color: #ededf6;
-    /* other color options (from dark to light blue hues)
-        #1c558e
-        #1A5B92
-        #16679A
-        #0F80AA
-        -secondary color
-        #04A6C2
-        #00B2CA
-        -tertiary color
-        #3FC1C0
-    */
 }
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +20,7 @@ body {
 
 /* GENERAL STYLES */
 section {
-    padding: 20px;
+    padding: 20px 30px 20px 20px;
 }
 
 a {
@@ -42,31 +32,23 @@ a {
     text-align: end;
     padding: 0 15px 0px 0;
     color: var(--tertiary-color);
-    font-weight: bold;
-}
-
-.sidebar {
-    border-right: 3px solid var(--tertiary-color);
+    font-weight: boldcle;
 }
 
 .sidebar-content {
     display: flex;
     flex-wrap: wrap;
 }
-
-.sidebar-content > *:nth-child(1) {
-    flex: 1 1 30%;
-    max-width: 10em;
-}
-
-.sidebar-content > *:nth-child(2) {
-    flex: 1 1 70%;
+.sidebar {
+    flex: 1 15%;
+    border-right: 3px solid var(--tertiary-color);
 }
 
 .content {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    flex: 2 85%;
     width: 100%;
     margin: 0 auto;
     padding: 0 30px;
@@ -120,6 +102,7 @@ header nav ul li a {
 .hero {
     background-image: url(../images/hero_bg.jpg); 
     background-position: right;
+    background-size: cover;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -131,7 +114,7 @@ header nav ul li a {
     background: var(--primary-color);
     text-align: center;
     padding: 7px;
-    margin-right: 70px;
+    margin-right: 5%;
 }
 
 .hero-content h2 {
@@ -159,54 +142,45 @@ header nav ul li a {
 
 /* PROJECTS STYLE START */
 
-.projects-grid {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.main {
+    padding: 5px;
     position: relative;
 }
 
-.projects-grid > * {
-    flex: 1 1 50%;
-    padding: 5px;
-}
-
-.projects-img img {
+.main img {
     width: 100%;
     border: 5px solid var(--primary-color);
 }
 
-/* left side center text */
 .work-text {
     position: absolute;
-    align-self: center;
-    left: 0px;
-    background:rgba(63, 193, 192, 85%);
-    padding: 20px;
-    margin-left: 5px;
-    border: 5px solid rgba(29, 78, 137, 75%);
-    border-left: 0px;
-    border-radius: 0px 15px 15px 0px;
-        /*might change border left/add border around image as well
-        still want to round edges I think
-        Gradient?*/
+    bottom: 40px;
+    padding: 10px;
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    line-height: 1.5;
+}
+
+.work-text h3 {
+    font-size: 20px;
+    font-weight: normal;
 }
 
 .work-text p {
-    font-size: 25px;
-    font-weight: lighter;
-    font-style: italic;
+    font-size: 12px;
 }
 
-.text2 {
-    top: 100px;
+.row {
+    flex: 50%;
+    padding: 5px;
+    position: relative;
 }
 
-.projects-text p {
-    font-size: 25px;
-    font-weight: lighter;
-    font-style: italic;
+.row img {
+    width: 100%;
+    border: 5px solid var(--primary-color);
 }
+
 /* PROJECTS STYLE END */
 
 
@@ -262,3 +236,37 @@ footer div img {
 }
 /* FOOTER STYLE END */
 
+
+
+/* General flexbox with sidebar
+.flexbox-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left {
+    flex: 1 25%;
+}
+
+.right {
+    flex: 2 75%;
+}
+
+.main {
+    padding: 5px;
+}
+.main img {
+    width: 100%;
+    border: 5px solid var(--primary-color);
+}
+
+.row {
+    flex: 50%;
+    padding: 5px;
+}
+
+.row img {
+    width: 100%;
+    border: 5px solid var(--primary-color);
+}
+*/
