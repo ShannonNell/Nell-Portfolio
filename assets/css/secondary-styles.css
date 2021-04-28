@@ -1,0 +1,39 @@
+:root {
+    --primary-color: #92cccd;
+    --secondary-color: #31343d;
+    --tertiary-color: #445876;
+    --teal: #39a6b2;
+}
+
+.resume-content {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.resume-content h3 {
+    font-size: 25px;
+    margin: 20px 0;
+    color: var(--secondary-color);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 5px;
+}
+
+.resume-content p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px 0;
+    color: var(--tertiary-color)
+}
+
+.resume-content ul {
+    margin: 15px 0px 15px 40px;
+}
+
+.resume-content li {
+    color: var(--teal);
+    margin: 10px 0;
+}
+
+.resume-content p {
+    color: 
+}
