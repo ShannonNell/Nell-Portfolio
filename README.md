@@ -23,6 +23,8 @@ Personal/for potential employers to see work
 * any links that helped me along the way
 * https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
 * https://www.youtube.com/watch?v=vQAvjof1oe4 
+* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
+* https://stackoverflow.com/questions/22994810/how-do-i-desaturate-and-saturate-an-image-using-css 
 
 ## Tools
 * HTML
