@@ -1,11 +1,9 @@
 # Challenge 2: Portfolio
 
-***
-
 ## Description
-A website to showcase my personal portfolio that can evolve as I progress in my studies. 
+A website to showcase my personal portfolio that can evolve as I progress in my studies. Initial design for the website is based off of a provided mock-up example on the websites appearance and funcitonality.
 
-Used flexboxes to style layout, media queries to ensure responsiveness to multiple screen sizes, and advanced CSS aestetics to add depth to the page.
+Used flexboxes to style layout, media queries to ensure responsiveness to multiple screen sizes, and advanced pseudo classes to add depth to the page.
 
 ## Table of Contents
 
@@ -13,18 +11,21 @@ Used flexboxes to style layout, media queries to ensure responsiveness to multip
 * [Links](#links)
 * [Tools](#tools)
 * [Credits](#credits)
-* [Licence](#license)
+* [Challenge Guidelines](#challenge-guidelines)
 
 ## Usage
 Personal/for potential employers to see work
-![eventualscreenshots] (link)
+![eventualscreenshots] (screenshot of website)
 
 ## Links
-* any links that helped me along the way
-* https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp
-* https://www.youtube.com/watch?v=vQAvjof1oe4 
-* https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity
-* https://stackoverflow.com/questions/22994810/how-do-i-desaturate-and-saturate-an-image-using-css 
+
+### Deployed Portfolio Website:
+* [Nell Portfolio](https://shannonnell.github.io/UoT-coding-challenge2/)
+### Links that Helped me along the way:
+* [Responsive Image Grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
+* [Youtube- Flexbox Design Patterns](https://www.youtube.com/watch?v=vQAvjof1oe4) 
+* [W3Schools - Opacity with Box](https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_opacity)
+* [Stack Overflow - Desaturating images](https://stackoverflow.com/questions/22994810/how-do-i-desaturate-and-saturate-an-image-using-css) 
 
 ## Tools
 * HTML
@@ -33,6 +34,7 @@ Personal/for potential employers to see work
 ## Credits
 GitHub: [ShannonNell](https://github.com/ShannonNell)
 
+## Challenge Guidelines
 ### Task:
 Build portfolio of work samples
 
@@ -45,7 +47,7 @@ Build portfolio of work samples
 - WHEN click app images -- THEN taken to that deployed app
 - WHEN page resized -- THEN responsive layout adapts
 
-### To Do:
+### Steps:
 - √ Outline HTML
 - √ Basic CSS
 - √ Flexboxes
@@ -53,19 +55,12 @@ Build portfolio of work samples
 - √ Text over images
 - √ Add links to work projects deployed applications
 - √ Media Queries
-- Hover functionality
-- Page for Resume
+- √ Hover functionality
+- √ Page for Resume
 - Enhanced CSS (Shadows, variables)
-- Ensure alt for all images
-- Ensure links lead to appropriate id/page
-- Ensure heading tags all in order
+- √ Ensure alt for all images
+- √ Ensure links lead to appropriate id/page
+- √ Ensure heading tags all in order
 - Deploy app at live URL 
 - Submit
  
-
-Actual list:
-- sticky header? 
-- Hover aspects -- Navigation -- do I want it to change on hover? Perhaps text color change
-- Shadow aspects
-- Header bg fixed? and Position %?
-- Check .hero div {...} overflow:auto
