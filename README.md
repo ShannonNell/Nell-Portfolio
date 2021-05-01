@@ -57,10 +57,9 @@ Build portfolio of work samples
 - √ Media Queries
 - √ Hover functionality
 - √ Page for Resume
-- Enhanced CSS (Shadows, variables)
 - √ Ensure alt for all images
 - √ Ensure links lead to appropriate id/page
 - √ Ensure heading tags all in order
-- Deploy app at live URL 
+- √ Deploy app at live URL 
 - Submit
  
