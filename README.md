@@ -14,8 +14,8 @@ Used flexboxes to style layout, media queries to ensure responsiveness to multip
 * [Challenge Guidelines](#challenge-guidelines)
 
 ## Usage
-Personal/for potential employers to see work
-![eventualscreenshots] (screenshot of website)
+Personal/for potential employers to see work:
+![Nell Portfolio home page screenshot](assets/images/challenge2Screenshot.png)
 
 ## Links
 
