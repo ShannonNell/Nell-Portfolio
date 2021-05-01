@@ -127,14 +127,23 @@ header nav ul li a:hover {
 
 /* ABOUT ME STYLE */
 
+.about-me-img {
+    flex: 0 18%;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.about-me-img img {
+    width: 100%;
+}
+
 .about-me-info {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
     color: var(--tertiary-color);
     font-weight: lighter;    
-    font-size: 14px;
+    font-size: 20px;
     line-height: 1.4;
+    flex: 2 80%;
+    margin: auto 0;
 }
 
 /* ABOUT ME STYLE END */
