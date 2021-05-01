@@ -43,7 +43,6 @@ Build portfolio of work samples
 - WHEN click links -- THEN UI scrolls to corresponding section
 - WHEN click work -- THEN UI scrolls to section with titled images of developer's apps
 - WHEN see first app -- THEN that app's image is larger in size than the others
-    - (is this when you click or first impression, this app needs to be the largest on the screen?)
 - WHEN click app images -- THEN taken to that deployed app
 - WHEN page resized -- THEN responsive layout adapts
 
@@ -61,5 +60,5 @@ Build portfolio of work samples
 - √ Ensure links lead to appropriate id/page
 - √ Ensure heading tags all in order
 - √ Deploy app at live URL 
-- Submit
+
  
