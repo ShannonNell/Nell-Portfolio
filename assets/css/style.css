@@ -101,8 +101,8 @@ header nav ul li a:hover {
 
 /* HERO STYLE */
 .hero {
-    background-image: url(../images/hero_bg.jpg); 
-    background-position: right;
+    background-image: url(../images/placeholder_header_bg.jpg); 
+    background-position: top;
     background-size: cover;
     display: flex;
     justify-content: flex-end;

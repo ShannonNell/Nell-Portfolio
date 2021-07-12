@@ -25,3 +25,7 @@
     color: var(--teal);
     line-height: 1.3;
 }
+
+.resLocDate {
+    color: var(--tertiary-color)
+}
