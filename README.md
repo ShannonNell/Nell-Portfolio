@@ -1,4 +1,4 @@
-# Challenge 2: Portfolio
+# Nell Portfolio
 
 ## Description
 A website to showcase my personal portfolio that can evolve as I progress in my studies. Initial design for the website is based off of a provided mock-up example on the websites appearance and funcitonality.
@@ -20,7 +20,7 @@ Personal/for potential employers to see work:
 ## Links
 
 ### Deployed Portfolio Website:
-* [Nell Portfolio](https://shannonnell.github.io/UoT-coding-challenge2/)
+* [Nell Portfolio](https://shannonnell.github.io/Nell-Portfolio/)
 ### Links that Helped me along the way:
 * [Responsive Image Grid](https://www.w3schools.com/howto/howto_css_image_grid_responsive.asp)
 * [Youtube- Flexbox Design Patterns](https://www.youtube.com/watch?v=vQAvjof1oe4) 
